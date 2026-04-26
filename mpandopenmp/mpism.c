@@ -74,6 +74,8 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
+// sudo apt update
+// sudo apt install openmpi-bin libopenmpi-dev
 
 //mpicc your_program.c -o your_program
 //mpirun -np 4 ./your_program

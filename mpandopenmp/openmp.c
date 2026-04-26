@@ -35,3 +35,4 @@ int main() {
 
     return 0;
 }
+//gcc -fopenmp openmp.c -o openmp

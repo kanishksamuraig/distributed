@@ -1,0 +1,5 @@
+rpcgen -C math.x
+gcc -o server math_server.c math_svc.c math_xdr.c
+gcc -o client math_client.c math_clnt.c math_xdr.c
+./server
+./client localhost 5 7
